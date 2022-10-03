@@ -36,7 +36,7 @@ document.querySelectorAll('a').forEach(links =>{
 });
 
 var typed = new Typed(".auto-typed",{
-    strings: ["ramma fitra"],
+    strings: ["ramma fitra", "ai engineer"],
     typeSpeed: 100, 
     backSpeed: 100,
     loop:true
