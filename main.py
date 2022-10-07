@@ -6,4 +6,12 @@ app = Flask(__name__)
 def portfolio():
     return render_template('index.html')
 
+@app.route('/blog', methods=['GET'])
+def blog():
+    return render_template('blog.html')
+
+@app.route('/tutorial', methods=['GET'])
+def tutorial():
+    return render_template('tutorial.html')
+
 app.run()
