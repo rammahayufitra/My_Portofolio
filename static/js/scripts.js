@@ -48,3 +48,4 @@ var typed = new Typed(".auto-icon",{
     backSpeed: 100,
     loop:true
 })
+
