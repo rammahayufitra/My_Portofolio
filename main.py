@@ -8,10 +8,7 @@ def portfolio():
 
 @app.route('/blog', methods=['GET'])
 def blog():
-    return render_template('blog.html')
+    return render_template('./blog/blog.html')
 
-@app.route('/tutorial', methods=['GET'])
-def tutorial():
-    return render_template('tutorial.html')
 
 app.run()
