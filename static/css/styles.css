@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
 :root{
-    --main-color:#e38528;
+    --main-color:#0D9488;
 }
 
 *{
@@ -15,10 +15,12 @@
     line-height: 1.5;
 }
 
+
 html{
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    color:#111;
 }
 
 body{
@@ -61,7 +63,7 @@ section{
 header{
     position: fixed;
     top:0; left:0; bottom:0;
-    background:#222;
+    background:#111;
     display: flex;
     align-items: center;
     justify-content: space-between;

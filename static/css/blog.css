@@ -223,7 +223,7 @@
 .roadmap .container-roadmap .p1{
     font-size: 16;
     font-weight: normal;
-    color: #6a7a90;
+    color:#0D9488;
     text-align: left;
 }
 
@@ -241,7 +241,7 @@
     height: 50px;
     width: 50px;
     background: #f0f2f7;
-    border: 2px solid #7a90fd;
+    border: 2px solid #0D9488;
     border-radius: 50%;
     padding: 15px;
     font-weight: bold;
@@ -252,12 +252,12 @@
 }
 
 .roadmap .container-roadmap .count div:hover {
-    background: #7a90fd;
+    background: #0D9488;
     color: #fff
 }
 
 .roadmap .container-roadmap .count div.active{
-    background: #7a90fd;
+    background: #0D9488;
     color: #fff;
 }
 
@@ -290,7 +290,7 @@
 .roadmap .container-roadmap .content button {
     padding: 15px 80px;
     margin-top: 20px;
-    background-color: #7a90fd;
+    background-color: #0D9488;
     color: #fff;
     border: 0;
     outline: none; 
